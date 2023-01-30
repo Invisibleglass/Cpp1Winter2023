@@ -224,7 +224,7 @@ GameObject:
   m_Component:
   - component: {fileID: 93317584}
   - component: {fileID: 93317585}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Floor6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -282,7 +282,7 @@ GameObject:
   m_Component:
   - component: {fileID: 130472578}
   - component: {fileID: 130472579}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: CBlock3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -341,7 +341,7 @@ GameObject:
   - component: {fileID: 134097618}
   - component: {fileID: 134097620}
   - component: {fileID: 134097619}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Cloud3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -415,7 +415,7 @@ GameObject:
   - component: {fileID: 154511367}
   - component: {fileID: 154511369}
   - component: {fileID: 154511368}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: JTF8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -489,7 +489,7 @@ GameObject:
   - component: {fileID: 226392017}
   - component: {fileID: 226392019}
   - component: {fileID: 226392018}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Cloud1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -562,7 +562,7 @@ GameObject:
   m_Component:
   - component: {fileID: 416081188}
   - component: {fileID: 416081189}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Floor3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -621,7 +621,7 @@ GameObject:
   - component: {fileID: 416432214}
   - component: {fileID: 416432216}
   - component: {fileID: 416432215}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: JTF4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -778,7 +778,7 @@ GameObject:
   m_Component:
   - component: {fileID: 542680490}
   - component: {fileID: 542680491}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Floor8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -836,7 +836,7 @@ GameObject:
   m_Component:
   - component: {fileID: 672402288}
   - component: {fileID: 672402289}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Pipe5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -895,7 +895,7 @@ GameObject:
   - component: {fileID: 731193382}
   - component: {fileID: 731193384}
   - component: {fileID: 731193383}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: JTF2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -968,7 +968,7 @@ GameObject:
   m_Component:
   - component: {fileID: 762155569}
   - component: {fileID: 762155570}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Floor9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1027,7 +1027,7 @@ GameObject:
   - component: {fileID: 772424221}
   - component: {fileID: 772424223}
   - component: {fileID: 772424222}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Cloud4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1137,7 +1137,7 @@ GameObject:
   m_Component:
   - component: {fileID: 826430474}
   - component: {fileID: 826430475}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Floor5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1196,7 +1196,7 @@ GameObject:
   - component: {fileID: 921068806}
   - component: {fileID: 921068808}
   - component: {fileID: 921068807}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: JTF3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1270,7 +1270,7 @@ GameObject:
   - component: {fileID: 935691400}
   - component: {fileID: 935691402}
   - component: {fileID: 935691401}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: JTF1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1344,7 +1344,7 @@ GameObject:
   - component: {fileID: 944026946}
   - component: {fileID: 944026948}
   - component: {fileID: 944026947}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: JTF6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1416,7 +1416,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 992148634}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Floors
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1458,7 +1458,7 @@ GameObject:
   - component: {fileID: 1015265884}
   - component: {fileID: 1015265886}
   - component: {fileID: 1015265885}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: JTF5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1530,7 +1530,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1054380130}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: JumpThroughFloors
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1570,7 +1570,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1058674688}
   - component: {fileID: 1058674689}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: CBlock2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1628,7 +1628,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1101281084}
   - component: {fileID: 1101281085}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: CBlock1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1686,7 +1686,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1124436537}
   - component: {fileID: 1124436538}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Floor1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1744,7 +1744,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1205754245}
   - component: {fileID: 1205754246}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Pipe6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1802,7 +1802,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1223290042}
   - component: {fileID: 1223290043}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Pipe4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1918,7 +1918,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1387689964}
   - component: {fileID: 1387689965}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Pipe3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1976,7 +1976,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1547758006}
   - component: {fileID: 1547758007}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Floor4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2118,7 +2118,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1660401253}
   - component: {fileID: 1660401254}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Floor2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2177,7 +2177,7 @@ GameObject:
   - component: {fileID: 1727601767}
   - component: {fileID: 1727601769}
   - component: {fileID: 1727601768}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: JTF7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2250,7 +2250,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1737557569}
   - component: {fileID: 1737557570}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Pipe2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2307,7 +2307,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1750963146}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Pipes
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2345,7 +2345,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1876305583}
   - component: {fileID: 1876305584}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Pipe1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2402,7 +2402,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1905843906}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Clouds
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2428,6 +2428,37 @@ Transform:
   m_Father: {fileID: 803585302}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1957528001
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1957528002}
+  m_Layer: 0
+  m_Name: GroundCheck
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1957528002
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1957528001}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2096713476}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1987942168
 GameObject:
   m_ObjectHideFlags: 0
@@ -2437,7 +2468,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1987942169}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: CementBlock
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2473,7 +2504,7 @@ GameObject:
   - component: {fileID: 1995030976}
   - component: {fileID: 1995030978}
   - component: {fileID: 1995030977}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Cloud2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2546,7 +2577,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1995851730}
   - component: {fileID: 1995851731}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Floor7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2606,6 +2637,8 @@ GameObject:
   - component: {fileID: 2096713475}
   - component: {fileID: 2096713474}
   - component: {fileID: 2096713473}
+  - component: {fileID: 2096713477}
+  - component: {fileID: 2096713478}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -2700,7 +2733,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: -894109509, guid: 4c66cf643b901534aa6c582199011c46, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -2720,10 +2753,43 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2096713472}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 27.75, y: 13.25, z: 0}
+  m_LocalPosition: {x: 9.25, y: 6.15, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 1957528002}
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &2096713477
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2096713472}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 5360b2334e4bcb846b9519de79db639a, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+--- !u!114 &2096713478
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2096713472}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31713bae78e7a9d478926037ffd4580a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
