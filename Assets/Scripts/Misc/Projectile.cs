@@ -17,12 +17,21 @@ public class Projectile : MonoBehaviour
 
         GetComponent<Rigidbody2D>().velocity = new Vector2(speed, 0);
         Destroy(gameObject, lifetime);
-        
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+
+    }
+    private void OnCollisionEnter2D(Collision2D other)
+    {
+        if (other.gameObject.CompareTag("Powerup") || other.gameObject.CompareTag("Player")/*|| other.gameObject.CompareTag("Collectible")*/)
+        {
+            //Do nothing
+        }
+        else
+            Destroy(gameObject);
     }
 }
