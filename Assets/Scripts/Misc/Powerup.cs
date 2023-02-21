@@ -11,10 +11,29 @@ public class Powerup : MonoBehaviour
         Life = 1,
         Score = 2,
     }
-    private void OnCollisionEnter2D(Collision2D other)
+
+    public Poweruptype currentPickup;
+    private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (other.gameObject.CompareTag("Player"))
+        if (collision.gameObject.CompareTag("Player"))
+        {
+            PlayerController temp = collision.gameObject.GetComponent<PlayerController>();
+
+            switch (currentPickup)
+            {
+                case Poweruptype.Powerup:
+
+                    break;
+                case Poweruptype.Life:
+                    temp.lives++;
+
+                    break;
+                case Poweruptype.Score:
+
+                    break;
+            }
             Destroy(gameObject);
+        }
     }
     // Start is called before the first frame update
     void Start()

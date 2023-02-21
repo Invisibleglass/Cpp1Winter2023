@@ -25,6 +25,29 @@ public class PlayerController : MonoBehaviour
     public LayerMask isGroundLayer;
     public float groundCheckRadius;
 
+    public int maxlives = 5;
+    private int _lives = 3;
+
+    public int lives
+    {
+        get { return _lives; }
+        set
+        {
+            //if{_lives > value
+            //we lost a life - we need to respawn
+
+            _lives = value;
+
+            if (_lives > maxlives)
+                _lives = maxlives;
+
+            //if (_lives < 0)
+            //gameover
+
+            Debug.Log("lives have been set to; " + _lives.ToString());
+        }
+    }
+
     // Start is called before the first frame update
     void Start()
     {
