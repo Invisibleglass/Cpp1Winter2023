@@ -1,11 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
-using System.Diagnostics;
-using System.Runtime.CompilerServices;
-using System.Security.AccessControl;
-using System.Security.Cryptography;
 using UnityEngine;
-using Debug = UnityEngine.Debug;
 
 [RequireComponent(typeof(Rigidbody2D), typeof(Animator), typeof(SpriteRenderer))]
 public class PlayerController : MonoBehaviour
@@ -25,7 +20,10 @@ public class PlayerController : MonoBehaviour
     public LayerMask isGroundLayer;
     public float groundCheckRadius;
 
-    public int maxlives = 5;
+
+    Coroutine jumpForceChange = null;
+
+    public int maxLives = 5;
     private int _lives = 3;
 
     public int lives
@@ -33,18 +31,18 @@ public class PlayerController : MonoBehaviour
         get { return _lives; }
         set
         {
-            //if{_lives > value
+            //if (_lives > value)
             //we lost a life - we need to respawn
 
             _lives = value;
 
-            if (_lives > maxlives)
-                _lives = maxlives;
+            if (_lives > maxLives)
+                _lives = maxLives;
 
             //if (_lives < 0)
             //gameover
 
-            Debug.Log("lives have been set to; " + _lives.ToString());
+            Debug.Log("Lives have been set to: " + _lives.ToString());
         }
     }
 
@@ -79,7 +77,8 @@ public class PlayerController : MonoBehaviour
             Debug.Log("Ground Check not set, finding it manually!");
         }
     }
-            // Update is called once per frame
+
+    // Update is called once per frame
     void Update()
     {
         AnimatorClipInfo[] curPlayingClip = anim.GetCurrentAnimatorClipInfo(0);
@@ -102,9 +101,8 @@ public class PlayerController : MonoBehaviour
                 Vector2 moveDirection = new Vector2(hInput * speed, rb.velocity.y);
                 rb.velocity = moveDirection;
             }
-
         }
-
+        
         if (isGrounded && Input.GetButtonDown("Jump"))
         {
             rb.velocity = Vector2.zero;
@@ -116,7 +114,7 @@ public class PlayerController : MonoBehaviour
             anim.SetTrigger("JumpAttack");
         }
 
-
+        
         anim.SetFloat("hInput", Mathf.Abs(hInput));
         anim.SetBool("isGrounded", isGrounded);
 
@@ -127,37 +125,46 @@ public class PlayerController : MonoBehaviour
         if (isGrounded)
             rb.gravityScale = 1;
     }
+
     public void IncreaseGravity()
     {
         rb.gravityScale = 5;
     }
 
-    // use for powerup and if you want to collide with stuff
-    /*    private void OnTriggerEnter2D(Collider2D other)
-        {
-            if (other.gameObject.CompareTag("Powerup"))
-            {
-                //do something
-            }
-        }
-        private void OnTriggerExit2D(Collider2D other)
-        {
 
-        }
-        private void OnTriggerStay2D(Collider2D other)
+    public void StartJumpForceChange()
+    {
+        if (jumpForceChange == null)
         {
-
+            jumpForceChange = StartCoroutine(JumpForceChange());
         }
-        private void OnCollisionEnter2D(Collider2D collison)
+        else
         {
-
+            StopCoroutine(jumpForceChange);
+            jumpForceChange = null;
+            jumpForce /= 2;
+            jumpForceChange = StartCoroutine(JumpForceChange());
         }
-        private void OnCollisionExit2D(Collider2D collison)
-        {
+    }
 
+    IEnumerator JumpForceChange()
+    {
+        jumpForce *= 2;
+
+        yield return new WaitForSeconds(5.0f);
+
+        jumpForce /= 2;
+        jumpForceChange = null;
+
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Squish"))
+        {
+            EnemyWalker enemy = collision.gameObject.transform.parent.GetComponent<EnemyWalker>();
+            enemy.Squish();
+            rb.AddForce(Vector2.up * 500);
         }
-        private void OnCollisionStay2D(Collider2D collison)
-        {
-
-        }*/
+    }
 }

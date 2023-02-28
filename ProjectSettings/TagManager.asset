@@ -5,8 +5,14 @@ TagManager:
   serializedVersion: 2
   tags:
   - GroundCheck
-  - floor
-  - Powerup
+  - Ground
+  - Wall
+  - Barrier
+  - Squish
+  - Enemy
+  - PlayerProjectile
+  - EnemyProjectile
+  - Range
   layers:
   - Default
   - TransparentFX
@@ -45,5 +51,5 @@ TagManager:
     uniqueID: 0
     locked: 0
   - name: PlayArea
-    uniqueID: 1474867691
+    uniqueID: 3131022139
     locked: 0

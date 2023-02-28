@@ -1,12 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
-[RequireComponent(typeof(PlayerController))]
 public class Shoot : MonoBehaviour
 {
     SpriteRenderer sr;
 
+    public UnityEvent OnProjectileSpawned;
     public float projectileSpeed;
     public Transform spawnPointRight;
     public Transform spawnPointLeft;
@@ -19,11 +20,11 @@ public class Shoot : MonoBehaviour
 
         if (projectileSpeed <= 0)
             projectileSpeed = 7.0f;
+
         if (!spawnPointLeft || !spawnPointRight || !projectilePrefab)
             Debug.Log("Please setup default values on " + gameObject.name);
     }
 
-    // Update is called once per frame
     public void Fire()
     {
         if (!sr.flipX)
@@ -36,5 +37,8 @@ public class Shoot : MonoBehaviour
             Projectile curProjectile = Instantiate(projectilePrefab, spawnPointLeft.position, spawnPointLeft.rotation);
             curProjectile.speed = -projectileSpeed;
         }
+        
+
+        OnProjectileSpawned?.Invoke();
     }
 }

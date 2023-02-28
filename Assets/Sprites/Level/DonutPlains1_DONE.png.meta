@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: aa007c8dcf6ef814cb1b25b20fa698ac
+guid: 21c75d8e88d171940b05e537b293c63c
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 16
+  spritePixelsToUnits: 20
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -70,7 +70,7 @@ TextureImporter:
     maxTextureSize: 8192
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -101,32 +101,65 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: DonutPlainsLevel
+      name: Level
       rect:
         serializedVersion: 2
         x: 0
         y: 186
         width: 5113
         height: 431
-      alignment: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25a6d26e792fc1b43a32f50c759c89b2
+      internalID: -356148699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Life
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 84
+        width: 16
+        height: 16
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a5d27ceb238e90149ab1227579264d88
-      internalID: 414778850
+      spriteID: 81b600cdd985e1a44b5beae291644694
+      internalID: 2146394056
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DonutPlains1_DONE_1
+      name: Powerup
       rect:
         serializedVersion: 2
         x: 19
@@ -134,20 +167,20 @@ TextureImporter:
         width: 16
         height: 25
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5cdc1516350bbb94b83b181199aa8825
-      internalID: 1733615028
+      spriteID: 983f3efa3d7d9db49af26d13050fdaac
+      internalID: -1346052405
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DonutPlains1_DONE_2
+      name: Score
       rect:
         serializedVersion: 2
         x: 64
@@ -155,245 +188,14 @@ TextureImporter:
         width: 8
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 14039d81fca0b80498ce52139fff6788
-      internalID: -1188873458
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DonutPlains1_DONE_3
-      rect:
-        serializedVersion: 2
-        x: 104
-        y: 139
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 15a63417dd0e2414f98abc400dd3620a
-      internalID: -562707965
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DonutPlains1_DONE_4
-      rect:
-        serializedVersion: 2
-        x: 138
-        y: 141
-        width: 17
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8597175bccdb2f64dbe67de6ccee2e0b
-      internalID: -2096886647
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DonutPlains1_DONE_5
-      rect:
-        serializedVersion: 2
-        x: 172
-        y: 143
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 90eba7fb2e9119947a5857ed818da01b
-      internalID: -1626174844
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DonutPlains1_DONE_6
-      rect:
-        serializedVersion: 2
-        x: 241
-        y: 147
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 725e5866139177a44bc37353fa24a362
-      internalID: 1078430289
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DonutPlains1_DONE_7
-      rect:
-        serializedVersion: 2
-        x: 334
-        y: 25
-        width: 48
-        height: 145
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7533a131910dec64caadd7ed1d985b87
-      internalID: 1891426175
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DonutPlains1_DONE_10
-      rect:
-        serializedVersion: 2
-        x: 241
-        y: 116
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5fc6947773d26cd4aa89aeffafab6891
-      internalID: 583601582
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DonutPlains1_DONE_11
-      rect:
-        serializedVersion: 2
-        x: 284
-        y: 103
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d9e1e9dcf8a0eca48ad327e54f72e761
-      internalID: -1533769942
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DonutPlains1_DONE_12
-      rect:
-        serializedVersion: 2
-        x: 241
-        y: 84
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 791096a6b7560264281a03d7eb063d73
-      internalID: 1328750036
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DonutPlains1_DONE_13
-      rect:
-        serializedVersion: 2
-        x: 343
-        y: 0
-        width: 24
-        height: 8
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 411846b7fa2eefb4fb8169c6adc013c3
-      internalID: -1305635190
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DonutPlains1_DONE_8
-      rect:
-        serializedVersion: 2
-        x: 430
-        y: 84
-        width: 32
-        height: 65
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8460186a1bf982d4e889f2576d151487
-      internalID: 1617616281
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DonutPlains1_DONE_9
-      rect:
-        serializedVersion: 2
-        x: 438
-        y: 65
-        width: 20
-        height: 3
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c0245934d2b59d84094ec7ac2a9830aa
-      internalID: 825482539
+      spriteID: 2f04ef951b772c249a23e55e75bda05f
+      internalID: 86550729
       vertices: []
       indices: 
       edges: []
@@ -409,21 +211,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      DonutPlains1_DONE_14: 1298293150
-      DonutPlains1_DONE_5: -1626174844
-      DonutPlains1_DONE_3: -562707965
-      DonutPlains1_DONE_4: -2096886647
-      DonutPlains1_DONE_11: -1533769942
-      DonutPlains1_DONE_9: 825482539
-      DonutPlains1_DONE_12: 1328750036
-      DonutPlains1_DONE_13: -1305635190
-      DonutPlains1_DONE_2: -1188873458
-      DonutPlainsLevel: 414778850
-      DonutPlains1_DONE_7: 1891426175
-      DonutPlains1_DONE_6: 1078430289
-      DonutPlains1_DONE_1: 1733615028
-      DonutPlains1_DONE_10: 583601582
-      DonutPlains1_DONE_8: 1617616281
+      Life: 2146394056
+      Score: 86550729
+      Powerup: -1346052405
+      Level: -356148699
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
