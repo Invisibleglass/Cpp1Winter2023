@@ -37,7 +37,6 @@ public class Shoot : MonoBehaviour
             Projectile curProjectile = Instantiate(projectilePrefab, spawnPointLeft.position, spawnPointLeft.rotation);
             curProjectile.speed = -projectileSpeed;
         }
-        
 
         OnProjectileSpawned?.Invoke();
     }

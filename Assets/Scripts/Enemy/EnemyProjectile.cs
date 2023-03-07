@@ -22,11 +22,15 @@ public class EnemyProjectile : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        if (CompareTag("EnemyProjectile") && collision.gameObject.CompareTag("Player"))
+            GameManager.instance.lives--;
 
-        if (collision.gameObject.CompareTag("Player"))
-        {
-            //collision.gameObject.GetComponent<PlayerController>()._lives(-1);
-            Destroy(this.gameObject);
-        }
+        if (collision.gameObject.CompareTag("Ground") || collision.gameObject.CompareTag("Wall"))
+            Destroy(gameObject);
+
+        if (collision.gameObject.CompareTag("Enemy"))
+            collision.gameObject.GetComponent<Enemy>().TakeDamage(1);
+
+        Destroy(gameObject);
     }
 }
