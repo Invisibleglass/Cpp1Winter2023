@@ -985,6 +985,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4892030929443520620, guid: 796cabac6f9e19e4eb6567a44ddc3dec, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 7803368232175977745, guid: b266ae2806149104cbf14a034c350647, type: 3}
     - target: {fileID: 4892030929443520621, guid: 796cabac6f9e19e4eb6567a44ddc3dec, type: 3}
       propertyPath: m_Name
       value: TurretEnemy
